@@ -26,7 +26,7 @@ class GroupViewSet(viewsets.ModelViewSet):
 def  send(request):
     subject="hello,测试"
     msg="加油，你可以的"
-    send_email=["zhangniuniu@guazi.com"]
+    send_email=[""]
     from_email="n1997z@163.com"
 
     send_mail(subject,msg,from_email,send_email)
